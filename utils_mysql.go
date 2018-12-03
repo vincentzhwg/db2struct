@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"errors"
 	"fmt"
-	"sort"
+	//"sort"
 	"strconv"
 	"strings"
 )
@@ -68,7 +68,7 @@ func generateMysqlTypes(obj map[string]map[string]string, depth int, jsonAnnotat
 	for key := range obj {
 		keys = append(keys, key)
 	}
-	sort.Strings(keys)
+	//sort.Strings(keys)
 
 	for _, key := range keys {
 		mysqlType := obj[key]
