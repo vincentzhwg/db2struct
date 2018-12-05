@@ -12,18 +12,19 @@ import (
 const (
 	golangByteArray  = "[]byte"
 	gureguNullInt    = "null.Int"
-	sqlNullInt       = "sql.NullInt64"
+	sqlNullInt       = "int"
 	golangInt        = "int"
 	golangInt64      = "int64"
 	gureguNullFloat  = "null.Float"
-	sqlNullFloat     = "sql.NullFloat64"
+	sqlNullFloat     = "float64"
 	golangFloat      = "float"
 	golangFloat32    = "float32"
 	golangFloat64    = "float64"
 	gureguNullString = "null.String"
-	sqlNullString    = "sql.NullString"
-	gureguNullTime   = "null.Time"
-	golangTime       = "time.Time"
+	//sqlNullString    = "sql.NullString"
+	sqlNullString  = "string"
+	gureguNullTime = "null.Time"
+	golangTime     = "time.Time"
 )
 
 // commonInitialisms is a set of common initialisms.
